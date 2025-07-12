@@ -2,6 +2,8 @@ This project presents a smart solar tracking system that combines real-time sun 
 
 An intuitive mobile app allows users to monitor sensor values, weather forecasts, and battery charge levels in real-time.
 
+Open Firmware part/report.pdf for more detailled information.
+
 🔧 Key Features
 🎯 Real-time sun tracking using LDR sensors and servos
 
