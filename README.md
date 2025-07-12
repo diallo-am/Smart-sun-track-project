@@ -21,28 +21,6 @@ Panel charge status
 
 🔁 Serial communication (UART) between ESP32 and Arduino Uno
 
-🧩 System Architecture
-plaintext
-Copier
-Modifier
-Sensors (LDR, temperature, humidity, etc.)
-        │
-        ▼
-     ESP32 ────────▶ Firebase (Cloud)
-        │                 ▲
-        ▼                 │
- AI Weather Model     Mobile App
-        │
-        ▼
-Serial Communication (RX/TX)
-        │
-        ▼
-   Arduino Uno
-        │
-        ▼
- Servo Motor Control
-        │
-        ▼
 Solar Panel Orientation
 🛠️ Technologies Used
 ESP32 – Data collection and cloud communication
