@@ -29,12 +29,12 @@ void loop() {
       int r1 = data.substring(0, sep).toInt();
       int r2 = data.substring(sep + 1).toInt();
 
-      // Protéger contre valeurs corrompues
+      
       if (r1 == 0 && r2 == 0) return;
 
       int diff = abs(r1 - r2);
 
-      // Bouger seulement si le diff dépasse bien le seuil + marge
+      
       if (diff > seuil + zoneMorte) {
         if (r1 > r2) position -= 2;
         else position += 2;
@@ -43,7 +43,7 @@ void loop() {
         sg90.write(position);
 
       } else {
-        // Rien à faire, le servo garde sa position actuelle
+        
       }
 
       
